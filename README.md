@@ -1,12 +1,40 @@
-# React + Vite
+# 🖍️ Whiteboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **simple whiteboard** built using **React.js**, **Tailwind CSS**, and the **ZegoCloud Superboard SDK** — designed for quick and smooth sketching on a personal canvas. No user login or collaboration required.
 
-Currently, two official plugins are available:
+![Demo](./demo.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This app initializes a whiteboard using the ZegoCloud SDK inside a React component. With a pre-generated token, it loads a local whiteboard where you can:
+
+- Draw freehand 🖊️  
+- Insert shapes ▭ ⭕  
+- Add text ✍️  
+- Use eraser 🧽  
+- Highlight with laser ✨  
+
+All of this is done **without any real-time collaboration** — the board is meant for single-user, standalone use.
+
+---
+
+## ✨ Features
+
+- 🎨 Multiple tools: Pen, Eraser, Text, Shapes, Laser
+- ⚡ Fast & responsive canvas
+- 🎯 Tooltips with icons
+- 💡 Tailwind-powered UI
+
+---
+
+## 📦 Tech Stack
+
+- **React.js** – Frontend framework
+- **Tailwind CSS** – Styling
+- **ZegoCloud SDK** – Renders the whiteboard locally (non-collaborative)
+
+---
+
+
